@@ -3,13 +3,40 @@ body{
 }
 
 .mainGrid{
-    display:inline-grid;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 100px 200px;
+    grid-gap: 10px;
+    padding: 3px;
+
+    
 
 }
 .cell{
+    
     display: inline;
     text-align: center;
     background-color: lightblue;
     margin: 3px;
 }
 
+.featureBlock{
+ padding: 2px;
+ text-align: center;
+ justify-content: center;
+
+}
+
+
+.verticalBlock{
+    writing-mode: vertical-lr;
+    transform: rotateZ(180deg);
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: orange;
+    margin: 10px;
+    vertical-align: middle;
+    /* text-orientation: upright; */
+}
