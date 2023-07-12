@@ -1,0 +1,15 @@
+body{
+    border: 2px solid black;
+}
+
+.mainGrid{
+    display:inline-grid;
+
+}
+.cell{
+    display: inline;
+    text-align: center;
+    background-color: lightblue;
+    margin: 3px;
+}
+
